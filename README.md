@@ -24,7 +24,7 @@ PredictMultiply the new inputs by their respective weights, add the baseline, an
 ```
 import pandas as pd
 from sklearn import linear_model
-df=pd.read_csv("car.csv")
+df=pd.read_csv("car (1).csv")
 x=df[["Volume","Weight"]]
 y=df["CO2"]
 regression=linear_model.LinearRegression()
@@ -35,7 +35,7 @@ print(regression.predict([[3300,1300]]))
 
 ```
 ## Output:
-![alt text](image-1.png)
+<img width="1372" height="389" alt="Screenshot 2026-05-30 225800" src="https://github.com/user-attachments/assets/d7770984-98cd-4220-bbf1-f6f78c4dfdf6" />
 
 ## Result
 Thus the multivariate linear regression is implemented and predicted the output using python program.
